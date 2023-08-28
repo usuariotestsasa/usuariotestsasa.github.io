@@ -466,6 +466,48 @@ body.dark-theme {
   font-size: 3.1rem; /* Cambia el color en el hover según tu diseño */
 }
 
+/* SMALL DEVICES */
+@media screen and (max-height: 690px) {
+  .container {
+    margin-left: var(--mb-1);
+    margin-right: var(--mb-1);
+  }
+  .home__img-bg {
+    width: 220px;
+  }
+  .home__title {
+    font-size: var(--h1-font-size);
+  }
+  .home__button {
+    font-size: var(--smaller-font-size);
+  }
+  .home__container {
+    padding-top: 5rem;
+  }
+  .home__description {
+    font-size: 0.89rem;
+  }
+  .social__link {
+    font-size: 1rem;
+  }
+  .container__arrow {
+    margin-top: 5.2rem;
+  }
+  .home__title span {
+    font-size: 3.9rem;
+  }
+  .home__title span::before {
+    font-size: 3.9rem;
+  }
+  .home__rol{
+    font-size: 1.1rem;
+  }
+
+  /*   .arrow-link{
+    padding-top: .5rem;
+  } */
+}
+
 /* ============= PRODUCTS ================ */
 .section__description-text {
   font-size: 0.9rem;
@@ -673,21 +715,6 @@ body.dark-theme {
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
-@media screen and (max-width: 320px) {
-  .container {
-    margin-left: var(--mb-1);
-    margin-right: var(--mb-1);
-  }
-  .home__img-bg {
-    width: 220px;
-  }
-  .home__title {
-    font-size: var(--h1-font-size);
-  }
-  .home__button {
-    font-size: var(--smaller-font-size);
-  }
-}
 
 /* For medium devices */
 @media screen and (min-width: 576px) {

@@ -491,7 +491,7 @@ body.dark-theme {
     font-size: 1rem;
   }
   .container__arrow {
-    margin-top: 5.2rem;
+    margin-top: 5rem;
   }
   .home__title span {
     font-size: 3.9rem;
@@ -597,6 +597,7 @@ body.dark-theme {
 }
 .skills {
   margin-bottom: 4rem;
+  margin-top: 10rem;
 }
 .skill__container-logos {
   display: flex;
@@ -847,11 +848,19 @@ body.dark-theme {
     margin-right: auto;
   }
   .container__arrow {
-    margin-top: 19%;
+    margin-top: 15%;
     font-size: 3rem;
   }
 
   .scrollup {
     right: 3rem;
   }
+}
+
+@media screen and (min-width: 1900px) {
+:root{
+  --h1-font-size: 2rem;
+  --h2-font-size: 1.6rem;
+  --h3-font-size: 1.5rem;
+}
 }
